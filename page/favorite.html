@@ -1,0 +1,28 @@
+<div class="panel panel-default">
+	<!-- Default panel contents -->
+	<div class="panel-heading">Video yêu thích</div>
+	<div class="panel-body" ng-if="!carts.length">
+		<p>Không có video nào được yêu thích</p>
+	</div>
+
+	<!-- Table -->
+	<table class="table" >
+		<thead>
+			<tr>
+				<th>STT</th>
+				<th>Tên video</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="c in carts">
+				<td>1</td>
+				<td>Movie name</td>
+			</tr>
+			
+		</tbody>
+	</table>
+	<hr>
+	<div class="clearfix">
+		<a href="" class="btn btn-danger">Xóa các video yêu thích</a>
+	</div>
+</div>

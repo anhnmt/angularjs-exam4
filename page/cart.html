@@ -1,0 +1,29 @@
+<div class="panel panel-default">
+	<!-- Default panel contents -->
+	<div class="panel-heading">Giỏ hàng</div>
+	<div class="panel-body" ng-if="!carts.length">
+		<p>Giỏ hàng của bạn đang rỗng</p>
+	</div>
+
+	<!-- Table -->
+	<table class="table" ng-if="carts.length">
+		<thead>
+			<tr>
+				<th>STT</th>
+				<th>Tên sản phẩm</th>
+				<th>Giá</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="cart in carts track by $index">
+				<td>{{ $index + 1 }}</td>
+				<td>{{ cart.name }}</td>
+				<td>{{ cart.price | currency:"":0 }} đ</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<div class="clearfix">
+		<a ng-click="xoa()" class="btn btn-danger" >Xóa giỏ hàng</a>
+	</div>
+</div>

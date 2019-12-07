@@ -1,0 +1,43 @@
+[
+	{
+		"name":"Lorem ipsum dolor sit amet",
+		"price":650000,
+		"image": "images/b1.jpg"
+	},
+	{
+		"name":"Consectetur adipisicing elit",
+		"price":650000,
+		"image": "images/b2.jpg"
+	},
+	{
+		"name":"Ipsum numquam modi doloremque",
+		"price":650000,
+		"image": "images/b3.jpg"
+	},
+	{
+		"name":"Dolore molestiae laudantium",
+		"price":650000,
+		"image": "images/b4.jpg"
+	},
+	{
+		"name":"Iusto quasi eligendi adipisci",
+		"price":650000,
+		"image": "images/b5.jpg"
+	},
+	{
+		"name":"Eligendi quia minus officiis",
+		"price":650000,
+		"image": "images/b6.jpg"
+	},
+	{
+		"name":"Modi doloremque dolore autem",
+		"price":650000,
+		"image": "images/b7.jpg"
+	},
+	{
+		"name":"Repudiandae dolore molestiae",
+		"price":650000,
+		"image": "images/b8.jpg"
+	}
+	
+]

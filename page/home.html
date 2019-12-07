@@ -1,0 +1,20 @@
+<div class="panel panel-defaut">
+	<div class="panel-heading">
+		<h3 class="panel-title">Danh sách sản phẩm</h3>
+	</div>
+	<div class="col-md-3" ng-repeat="product in products">
+		<div class="thumbnail">
+			<img ng-src="{{ product.image }}" alt="">
+			<div class="caption text-center">
+				<h3>{{ product.name }}</h3>
+				<p>
+					Giá: {{ product.price | currency:"":0 }} đ
+				</p>
+				<p>
+					<a ng-click="xem(product)" class="btn btn-xs btn-primary">Chi tiết</a>
+					<a ng-click="them(product)" class="btn btn-xs btn-default">Giỏ hàng</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
